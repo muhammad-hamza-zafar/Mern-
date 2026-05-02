@@ -1,0 +1,56 @@
+.name{
+color: salmon;
+padding: 20px;
+font-weight: 700;
+
+}
+
+/* 1. Title Style */
+.title {
+  color: salmon;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 5px 0;
+}
+
+/* 2. Price Style */
+.price {
+  color: #2ecc71; /* Green color for price */
+  font-size: 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+/* 3. Badge Style */
+.badge {
+  background-color: #f1c40f; /* Yellow background */
+  color: #333;
+  padding: 4px 12px;
+  border-radius: 50px; /* Pill shape */
+  font-size: 0.7rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 10px;
+}
+
+.Cardmain {
+  display: flex;
+  flex-direction: row; /* Aligns items horizontally */
+  flex-wrap: wrap;     /* <--- THIS IS THE KEY: Moves items to the next line */
+  gap: 20px;           /* Adds space between the cards */
+  margin: 20px;
+  justify-content: flex-start; /* Keeps cards aligned to the left */
+}
+
+
+.header{
+  width: 100%;
+  height: 8%;
+  background-color: #2ecc71;
+  display: flex;
+  justify-content: space-between;
+  font-style: italic;
+}
+
+

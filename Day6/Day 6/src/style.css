@@ -1,0 +1,13 @@
+
+
+body   { font: 16px/1.4 system-ui; padding: 2rem; max-width: 480px; margin: auto; background-color: #7B8794; }
+h1     { color: #0a0005; }
+form   { display: flex; gap: .5rem; margin-bottom: 1rem; }
+input  { flex: 1; padding: .5rem; font-size: 1rem; }
+button { padding: .5rem 1rem; cursor: pointer; }
+ul     { list-style: none; padding: 0; }
+li     { display: flex; justify-content: space-between;
+         padding: .4rem .6rem; border-bottom: 1px solid #eee;
+         cursor: pointer; }
+li.done .text { text-decoration: line-through; color: #7B8794; }
+.del   { border: 0; background: transparent; color: #D9534F; font-weight: bold; }
